@@ -758,6 +758,80 @@ transform: scale(1.1,1.1);
         height: 60px;
         }
 }
+@media screen and (max-width: 400px){
+     .pesquisa form{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 320px;
+        width: 100%;
+        margin: 80px auto 30px;
+        top: -509px;
+        left: -16px;
+    }
+    .pesquisa input[type=text]{
+        position: relative;
+        width: 350px;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 16px;
+        border-radius: 8px;
+        /*cursor: pointer; */
+        background-color: #fff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        border: 1px solid #CCC;
+    }
+    .container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 80px auto 30px;
+        top: -590px;
+        left: -2px;
+    } 
+    .background-container{
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        max-width: 380px;
+        height: 210px;
+        background: white;
+        right: -10px;
+        top: -230px;
+        border-radius: 20px;
+        box-shadow: var(--box-shadow);
+    }
+    .botao-buscar{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: -470px;
+        left: -34px; 
+    }
+    .botao-buscar input[type=submit]{
+        width: 320px;
+        height: 60px;
+        border-radius: 10px;
+        border: 1px solid #ff5e00;
+        color: white;
+        background-color: #ff5e00;
+        transition: 0.5s;
+        cursor: pointer;
+        }
+        
+    .botao-buscar input[type=submit]:hover{
+        width: 320px;
+        height: 60px;
+        }
+}
 
 /*medias queries*/
 
@@ -853,6 +927,15 @@ transform: scale(1.1,1.1);
     .propriedades{
         top: 550px;  
     }
+}
+@media screen and (max-width: 400px){
+    .propriedades{
+        left: -23px;  
+    }
+    .casa-aqui h2{
+        position: relative;
+        left: 20px;
+}
 }
 
 /*sobre*/
